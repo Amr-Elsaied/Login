@@ -125,7 +125,7 @@ function logout() {
     }).then((result) => {
         if (result.isConfirmed) {
             localStorage.removeItem('sessionUsername');
-            location.href = "/";
+            location.href = "index.html";
         }
     });
 }
